@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body{
+    font-family: "Montserrat", sans-serif;
+    overflow-x: hidden
+}
+::-webkit-scrollbar{
+    display: none;
+}
+/************************Responsive task*****************/
+@media (max-width : 850px) {
+    .updatemodel{
+        width: 80vw !important;
+    }
+    .pfpsetter{
+        width: 70vw;
+    }
+}
+@media (max-width : 750px) {
+  .deletecomponent{
+    width: 60vw !important;
+    min-height: 40vh;
+  }
+}
+@media (max-width : 693px) {
+        .mygrid{
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .mcard{
+            width: 45vw;
+        }
+}
+@media (max-width :   630px  ) {
+        .mygrid{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .mcard{
+            width: 90vw;
+        }
+}
+@media (max-width : 500px) {
+    .deletecomponent{
+      width: 80vw !important;
+      min-height: 40vh;
+    }
+    .myicon{
+        width: 140px !important;
+    }
+  }
+@media (max-width :   450px  ) {
+    .updatemodel{
+        width: 100vw !important;
+    }
+}
+@media (max-width : 430px) {
+  
+    .pfpsetter{
+        width: 100vw;
+    }
+}
+@media (max-width :   440px  ) {
+    .mainheading{
+        font-size: 5vw;
+    }
+}
+@media (max-width :   400px  ) {
+    .msearch{
+            min-width: 10vw;
+    }
+}
+@media (max-width : 500px) {
+    .deletecomponent{
+      width: 100vw !important;
+      min-height: 40vh;
+    }
+    .myicon{
+        width: 140px !important;
+    }
+  }
